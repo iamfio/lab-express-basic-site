@@ -1,51 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css" />
-  <title>Works</title>
-</head>
-<body>
-  <nav>
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a href="about.html">About</a>
-      </li>
-      <li class="active">
-        <a href="works.html">Works</a>
-      </li>
-      <li>
-        <a href="gallery.html">Gallery</a>
-      </li>
-    </ul>
-  </nav>
-  <main>
-    <section>
-      <img src="https://octodex.github.com/images/Fintechtocat.png" alt="person" />
-      <h4>Some works:</h4>
-      <ul>
-        <li>
-          <a href="https://github.com/iamfio/pet-a-cat">Pet-A-Cat Game</a>
-        </li>
-        <li>
-          <a href="https://github.com/iamfio/lab-dom-ironhack-cart">JS Cart Lab</a>
-        </li>
-        <li>
-          <a href="https://github.com/iamfio/lab-dom-pizza-builder">JS Pizza Builder</a>
-        </li>
-        <li>
-          <a href="https://github.com/iamfio/ironhack-lab-p5-treasure-hunt">p5js Treasure Hunt Game</a>
-        </li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <a href="https://github.com/iamfio/lab-express-basic-site">Github Repo</a>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Works</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand bg-light">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav mx-auto my-2 order-0 order-md-1 position-relative"
+          >
+            <li class="nav-item px-0 px-sm-2">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item px-0 px-sm-2">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item px-0 px-sm-2">
+              <a href="works.html" class="nav-link active">Works</a>
+            </li>
+            <li class="nav-item px-0 px-sm-2">
+              <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="movie-container text-center">
+        <main class="container">
+          <div class="row py-sm-3 px-0">
+            <div class="col-sm-12 col-md-4 py-sm-3">
+              <img src="images/movies/the-taming-of-the-scoundrel-70211.jpg" class="movie-picture" alt="movie">
+              <p class="movie-name">The Taming of the Scoundrel <br><strong>(1980)</strong></p>
+            </div>
+            <div class="col-sm-12 col-md-4 py-sm-3">
+              <img src="images/movies/bingo-bongo-70214.jpg" class="movie-picture" alt="movie">
+              <p class="movie-name">Bingo Bongo <br><strong>(1982)</strong></p>
+            </div>
+            <div class="col-sm-12 col-md-4 py-sm-3">
+              <img src="images/movies/high-rollers-58978.jpg" class="movie-picture" alt="movie">
+              <p class="movie-name">High Rollers <br><strong>(1976)</strong></p>
+            </div>
+          </div>
+
+          <div class="row py-sm-3 px-0">
+            <div class="col-sm-12 col-md-4 py-sm-3">
+              <img src="images/movies/madly-in-love-70212.jpg" class="movie-picture" alt="movie">
+              <p class="movie-name">Madly in Love <br><strong>(1981)</strong></p>
+            </div>
+            <div class="col-sm-12 col-md-4 py-sm-3">
+              <img src="images/movies/ragazzi-del-juke-box-70232.jpg" class="movie-picture" alt="movie">
+              <p class="movie-name">Ragazzi del Juke-Box <br><strong>(1959)</strong></p>
+            </div>
+            <div class="col-sm-12 col-md-4 py-sm-3">
+              <img src="images/movies/il-monaco-di-monza-70221.jpg" class="movie-picture" alt="movie">
+              <p class="movie-name">Il monaco di Monza <br><strong>(1962)</strong></p>
+            </div>
+          </div>
+
+          <div class="row py-sm-3 px-0">
+            <div class="col-sm-12 col-md-4 py-sm-3">
+              <img src="images/movies/ace-70213.jpg" class="movie-picture" alt="movie">
+              <p class="movie-name">Ace <br><strong>(1981)</strong></p>
+            </div>
+            <div class="col-sm-12 col-md-4 py-sm-3">
+              <img src="images/movies/serafino-70220.jpg" class="movie-picture" alt="movie">
+              <p class="movie-name">Serafino <br><strong>(1968)</strong></p>
+            </div>
+            <div class="col-sm-12 col-md-4 py-sm-3">
+              <img src="images/movies/howlers-of-the-dock-70235.jpg" class="movie-picture" alt="movie">
+              <p class="movie-name">Howlers of the Dock <br><strong>(1960)</strong></p>
+            </div>
+          </div>
+        </main>
+      </div>
+    </main>
+
+    <footer id="sticky-footer" class="flex-shrink-0 py-4">
+      <div class="container text-center">
+        <p class="text-center text-muted">
+          <span class="text-muted">created by: </span>
+          <a href="https//github.com/iamfio" class="link-dark">Fiodor - 2022</a>
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
